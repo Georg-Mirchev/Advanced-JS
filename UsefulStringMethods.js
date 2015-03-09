@@ -1,11 +1,11 @@
 ﻿String.prototype.startsWith = function (substring) {
     var stringCut = this.substring(0, substring.length);
-    return stringCut === substring ? true : false;
+    return stringCut === substring;
 }
 
 String.prototype.endsWith = function (substring) {
     var stringCut = this.substring(this.length - substring.length);
-    return stringCut === substring ? true : false;
+    return stringCut === substring;
 }
 
 String.prototype.left = function (count) {
